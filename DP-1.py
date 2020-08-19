@@ -21,3 +21,8 @@ def solution(N, number):
             return x;
 
     return -1
+
+# make a set out of all the numbers you can make with given x amount of N. dp(x)
+# reference previous dp and repeat until you have "number" in the set dp(x)
+# return x;
+# be sure to count in "multi-numbers" like (55, 555, ...) accordingly to dp(x) 
